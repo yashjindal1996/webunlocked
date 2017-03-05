@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<!-- Mirrored from gnodesign.com/templates/cloudify/html/contact2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2017 13:14:54 GMT -->
+{{>header}}
+<body>
+
+
+    <!-- ===== Loader ===== -->
+    <div class="loader">
+        <div class="spinner">
+            <div class="cloud1"><img src="images/clouds/cloud-blue.svg" alt=""></div>
+            <div class="cloud2"><img src="images/clouds/cloud-green.svg" alt=""></div>
+        </div>
+    </div>
+    <!-- ===== End of Loader ===== -->
+
+
+    <!-- ===== Top Header ===== -->
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <!-- phone and social begin -->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <ul class="social list-inline ptb10">
+                        <li><a href="tel:12345678912">123 - 456 - 78912</a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <!-- phone and social end -->
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <!-- chat and account button begin -->
+                    <ul class="top-button ptb10">
+                        <li>
+                            <a href="#" class="btn btn-small btn-border btn-green customer-support"><i class="fa fa-comments"></i>live chat</a>
+                        </li>
+                        <li class="login">
+                            <a id="modal_trigger" class="btn btn-small btn-border-rev btn-blue" href="#"><i class="fa fa-user"></i>Client Area</a>
+                        </li>
+                    </ul>
+                    <!-- chat and account button end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===== End of Top Header ===== -->
+
+
+
+
+    <!-- ===== Start of Header Navigation ===== -->
+    {{>navbar}}
+    <!-- ===== End of Header Navigation ===== -->
+
+
+
+
+
+    <!-- ===== Start of Page Title ===== -->
+    <section class="page-title ptb50 overlay-black">
+        <div class="container">
+            <h2 class="uppercase">Contact ver. 2</h2>
+            <div class="breadcrumbs pt10">
+                <h5><a href="index-2.html">Home</a> / Contact</h5>
+            </div>
+        </div>
+    </section>
+    <!-- ===== End of Page Title ===== -->
+
+    
+    
+    
+    
+    <!-- ===== Start of Main Section ===== -->
+    <section class="contact-page ptb80">
+        <div class="container">
+            
+            <!-- Start of Contact Top -->
+            <div class="row contact-top">
+                <!-- Contact Item -->
+                <div class="col-md-3 contact-item">
+                    <h3>London, UK Office</h3>
+                    <p class="pt10 pb20 nomargin">Vivah London, London, United Kingdom</p>
+
+                    <ul>
+                        <li><strong>Phone:</strong> +123 456 789 0123</li>
+                        <li><strong>Fax:</strong> +123 456 789 0123</li>
+                        <li><strong>Email:</strong> <a href="mailto:youremail@cloudify.com">youremai@cloudify.com</a></li>
+                    </ul>
+                </div>
+
+                <!-- Start of Map -->
+                <div class="col-md-6 gmaps">
+                    <div id="map"></div>
+                </div>
+                <!-- End of Map -->
+
+                <!-- Contact Item -->
+                <div class="col-md-3 contact-item">
+                    <h3>New York, USA Office</h3>
+                    <p class="pt10 pb20 nomargin">New York Center, New York, USA</p>
+
+                    <ul>
+                        <li><strong>Phone:</strong> +123 456 789 0123</li>
+                        <li><strong>Fax:</strong> +123 456 789 0123</li>
+                        <li><strong>Email:</strong> <a href="mailto:youremail@cloudify.com">youremai@cloudify.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Contact Top -->
+
+            <!-- ===== Start of Contact Form ===== -->
+            <div class="col-md-8 col-md-offset-2 pt60">
+                <h3 class="uppercase text-center">leave us a message</h3>
+
+                <div class="row contact-form pt40">
+                    <!-- start of form -->
+                    <form id="contact-form">
+
+                        <!-- contact result -->
+                        <div id="contact-result"></div>
+                        <!-- end of contact result -->
+
+                        <div class="col-md-6">
+                            <input class="form-control input-box mb20" type="text" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control input-box mb20" type="email" name="email" placeholder="Your Email">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input class="form-control input-box" type="text" name="subject" placeholder="Subject">
+                            <textarea class="form-control textarea-box mtb20" rows="8" name="message" placeholder="Message"></textarea>
+                            <button class="btn btn-border btn-blue" type="submit">Send Message</button>
+                        </div>
+                    </form>
+                    <!-- end of form -->
+                </div>
+
+            </div>
+            <!-- ===== End of Contact Form ===== -->
+
+        </div>
+    </section>
+    <!-- ===== End of Main Section ===== -->
+
+
+
+
+
+    <!-- ===== Start of Footer ===== -->
+    {{>footer}}
+    <!-- ===== End of Footer ===== -->
+
+
+
+    <!-- ===== Start of Live Chat ===== -->
+    <div class="live-chat collapsed">
+
+        <!-- start of live chat header -->
+        <div class="header">
+            <a href="#" onclick="return(false);" class="chat-close"><i class="fa fa-times"></i></a>
+            <h4>Live Chat</h4>
+            <span class="chat-message-counter">1</span>
+        </div>
+        <!-- end of live chat header -->
+
+        <!-- start of chat -->
+        <div class="chat">
+            <!-- start of chat history -->
+            <div class="chat-history">
+                <!-- start of chat message -->
+                <div class="chat-message">
+                    <img src="images/team/team1.jpg" alt="">
+                    <!-- start of chat message content -->
+                    <div class="chat-message-content">
+                        <span class="chat-time">18:35</span>
+                        <h5>Customer Support</h5>
+                        <p>Welcome. How may I help you?</p>
+                    </div>
+                    <!-- end of chat message content -->
+                </div>
+                <!-- end of chat message -->
+                <hr>
+
+                <!-- start of chat message -->
+                <div class="chat-message">
+                    <img src="images/team/team1.jpg" alt="">
+                    <!-- start of chat message content -->
+                    <div class="chat-message-content">
+                        <span class="chat-time">18:36</span>
+                        <h5>John Doe</h5>
+                        <p>Hello. Can you please help me to transfer my domain from my previous server?</p>
+                    </div>
+                    <!-- end of chat message content -->
+                </div>
+                <!-- end of chat message -->
+                <hr>
+            </div>
+            <!-- end of chat history -->
+
+            <p class="chat-feedback">Customer Support is typing…</p>
+            <!-- start of chat form -->
+            <form action="#" method="post" onsubmit="this.reset(); return false;">
+                <fieldset>
+                    <input type="text" placeholder="Type your message…">
+                </fieldset>
+            </form>
+            <!-- end of chat form -->
+        </div>
+        <!-- end of chat -->
+    </div>
+    <!-- ===== End of Live Chat ===== -->
+
+
+
+    <!-- ===== Start of Login Pop Up div ===== -->
+    <div class="cd-user-modal">
+        <!-- this is the entire modal form, including the background -->
+        <div class="cd-user-modal-container">
+            <!-- this is the container wrapper -->
+            <ul class="cd-switcher">
+                <li><a href="#0">Sign in</a></li>
+                <li><a href="#1">New account</a></li>
+            </ul>
+
+            <div id="cd-login">
+                <!-- log in form -->
+                <form class="cd-form">
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="signin-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+                    </p>
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signin-password">Password</label>
+                        <input class="full-width has-padding has-border" id="signin-password" type="password" placeholder="Password">
+                    </p>
+                    <p class="fieldset">
+                        <input type="checkbox" id="remember-me" checked>
+                        <label for="remember-me">Remember me</label>
+                    </p>
+                    <p class="fieldset">
+                        <button type="submit" value="Login" class="btn btn-border btn-blue">Login</button>
+                    </p>
+                </form>
+            </div>
+            <!-- cd-login -->
+
+            <div id="cd-signup">
+                <!-- sign up form -->
+                <form class="cd-form">
+                    <p class="fieldset">
+                        <label class="image-replace cd-username" for="signup-username">Username</label>
+                        <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+                    </p>
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="signup-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+                    </p>
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signup-password">Password</label>
+                        <input class="full-width has-padding has-border" id="signup-password" type="password" placeholder="Password">
+                    </p>
+                    <p class="fieldset">
+                        <input type="checkbox" id="accept-terms">
+                        <label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
+                    </p>
+                    <p class="fieldset">
+                        <button class="btn btn-border btn-blue" type="submit" value="Create account">Create Account</button>
+                    </p>
+                </form>
+            </div>
+            <!-- cd-signup -->
+        </div>
+        <!-- cd-user-modal-container -->
+    </div>
+    <!-- cd-user-modal -->
+    <!-- ===== End of Login Pop Up div ===== -->
+
+
+
+    <!-- ===== All Javascript at the bottom of the page for faster page loading ===== -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/simple-expand.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.ajaxchimp.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- Loading Google Maps Script -->
+    <script>
+        jQuery(function ($) {
+            // Asynchronously Load the map API
+            var script = document.createElement('script');
+            script.src = "http://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initialize";
+            document.body.appendChild(script);
+        });
+    </script>
+    
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60264400-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
+
+<!-- Mirrored from gnodesign.com/templates/cloudify/html/contact2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2017 13:14:54 GMT -->
+</html>
